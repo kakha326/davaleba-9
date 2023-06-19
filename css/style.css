@@ -55,7 +55,6 @@ nav {
 }
 
 .user {
-
     font-size: 20px;
     margin-left: 42px;
 }
@@ -88,4 +87,58 @@ nav {
     font-size: 16px;
     line-height: 24px;
     color: #FFFFFF;
+}
+
+/* section2 */
+.section2 {
+    max-width: 1180px;
+    margin: 130px auto;
+    border: 2px solid red;
+}
+
+.section2_title {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: #000000;
+    margin-bottom: 34px;
+}
+
+.box1 {
+    width: 380px;
+    border: 1px solid #000000;
+}
+
+.box_title {
+    font-family: 'Kanit', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    color: #000000;
+}
+
+.box_article {
+    padding: 18px 24px 28px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.box_time {
+    display: flex;
+    justify-content: left;
+    gap: 17px;
+    padding-left: 23px;
+    
+}
+
+.time_text {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
 }
